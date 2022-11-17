@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IDとパスワード</title>
+</head>
+<body>
+	<h1>IDとパスワード</h1>
+	<hr>
+
+	<form action="/input_app" method="POST">
+  ID: <input type="text" name="id">
+  パスワード: <input type="password" name="pwd">
+                神奈川<input type="radio" name="address" value="Kanagawa">
+		東京<input type="radio" name="address" value="Tokyo">
+  好きなもの
+		<select name="favorite">
+			<option value="">好きなものを選んでください</option>
+			<option value="cat">ねこ</option>
+			<option value="dog">いぬ</option>
+			<option value="fried chicken">唐揚げ</option>
+			<option value="chicken wings">手羽先</option>
+			<option value="octopus wasabi">たこわさび</option> 
+  <input type="submit" value="OK">
+</form>
